@@ -28,4 +28,4 @@
         duration: 10hr
         trainer: siva
     ansible.builtin.debug:
-      msg: "Course information {{ course | item2dict }}"
+      msg: "Course information {{ course | items2dict }}"
