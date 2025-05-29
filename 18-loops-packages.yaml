@@ -2,8 +2,8 @@
   hosts: frontend
   become: yes
   tasks:
-  - name: install packages one by one
-    ansible.builtin.packages:
+  - name: install packages
+    ansible.builtin.package:
       name: "{{ item }}"
       state: installed
     loop:
