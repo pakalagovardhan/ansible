@@ -10,7 +10,7 @@
     sg_id: "sg-00773fc5fda12f5af"
   tasks:
   - name: create ec2
-    amazon.builtin.ec2_instance:
+    amazon.aws.ec2_instance:
       name: "{{ item }}"
       vpc_subnet_id: "{{ subnet_id }}"
       instance_type: t2.micro
