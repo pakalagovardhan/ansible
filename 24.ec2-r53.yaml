@@ -18,5 +18,5 @@
       image_id: ami-09c813fb71547fc4f
       tags:
         Name: "{{ item }}"
-    loop: "{{ instance }}"
+    loop: "{{ instances }}"
 
