@@ -37,4 +37,4 @@
     wait: true
     overwrite: true
 
-  loop: "{{ ec2_output.reults }}"
+    loop: "{{ ec2_output.reults }}"
